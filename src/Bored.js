@@ -4,7 +4,7 @@ export default function Bored() {
 
     const [bored, setBored] = useState([])
     const fetchBored = () => {
-        fetch('http://www.boredapi.com/api/activity')
+        fetch('https://www.boredapi.com/api/activity')
             .then(res => res.json())
             .then(res => setBored(res))
         console.log(bored)
