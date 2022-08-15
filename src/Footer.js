@@ -1,7 +1,4 @@
-import NavRoute from './NavRoute.js';
-import { NavLink } from 'react-router-dom';
-
-export default function NavBar() {
+export default function Footer() {
     return (
         <>
             <div className="container">
