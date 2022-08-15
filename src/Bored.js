@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 export default function Bored() {
 
     const [bored, setBored] = useState([])
-    const fetchBored = () => {
+    const fetchBored = async () => {
         fetch('http://www.boredapi.com/api/activity')
             .then(res => res.json())
             .then(res => setBored(res))
