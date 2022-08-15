@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Caveat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nameText {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+}
+
+.siteText {
+  font-family: 'Amatic SC', cursive;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.csep {
+  color: #b56fad;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bgcolor {
+  background-color: rgb(245, 232, 247);
+}
+
+.photomarg {
+  padding-bottom: 28px;
+}
+
+.dropdown-item.active{
+  background-color: #b56fad;
+}
+
+.dropdown-menu> li> a:hover{
+  background-color:#e7c3dd !important;
+}
+
+.center_image {
+  margin: 0 auto;
+}
+
+.b_pic {
+  box-shadow: 0px 0px 12px #bb8ab5;
+  border-top: 9px solid;
+  border-bottom: 9px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-color: #e2bede;
+}
+
+.btt {
+  background-color: #e7c3dd;
+}
+
+.skills {
+  background-color: #ffe7f8;
+}
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+  transform: scale(1.02);
+}
