@@ -11,6 +11,7 @@ export default function Bored() {
     };
     useEffect(() => {
         fetchBored()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
 

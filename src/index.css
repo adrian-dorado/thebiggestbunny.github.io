@@ -61,6 +61,11 @@ code {
   border-color: #e2bede;
 }
 
+.b_proj {
+  border: 4px solid;
+  border-color: #e2bede;
+}
+
 .btt {
   background-color: #e7c3dd;
 }

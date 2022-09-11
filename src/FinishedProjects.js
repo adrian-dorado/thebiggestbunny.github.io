@@ -17,26 +17,27 @@ const FinishedProjects = () => {
                             fun little surprises in monthly subscription boxes. <br />
                             <br />
                             The techstack we used for this site was: <br/>
-                            &emsp; - PostgresSQL Database
-                            &emsp; &emsp; - Django Backend
-                            &emsp; &emsp; - React Frontend
-                            &emsp; &emsp; - Bootstrap CSS
-                            &emsp; &emsp; - Vanilla CSS3
+                            - PostgresSQL Database <br/>
+                            - Django Backend <br/>
+                            - React Frontend <br/>
+                            - Bootstrap CSS <br/>
+                            - Vanilla CSS3 <br/>
                         </p>
                         <p className=''>
                             Impulse was born from our group's collective desire to own a bunch of random items, but not want
                             to pay top-dollar for those items. We figured a site that would allow you to get a subscription box
                             of random, fun items or clothes would be a great site, so we decided to build it! <br />
+                            <br/>
                             Functionality of the app is simple and boils down to two things: <br/>
-                            &emsp; - Making sure the user can easily navigate to the signup page <br/>
-                            &emsp; - Making sure the user can see any of the items they could possibly receive. <br/>
+                            - Making sure the user can easily navigate to the signup page <br/>
+                            - Making sure the user can see any of the items they could possibly receive in their subscription box. <br/>
                             <br/>
                             The site as it sits now is in MVP state and will be eventually gain more functionality but, as of now, it is finished.
                         </p>
                         <a className='link-dark' href='https://gitlab.com/mean-coders/module-three-project'>Gitlab Repo Link with Full Instructions For Use!</a>
                     </div>
-                    <div className="col-md-5">
-                        <img className="grow bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src='./squareimpulse.png' aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></img>
+                    <div style={{ paddingTop: '40px'}} className="col-md-5">
+                        <img className="b_proj grow bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src='./squareimpulse.png' aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                     </div>
                 </div>
                 <hr className="featurette-divider" />
@@ -47,18 +48,18 @@ const FinishedProjects = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                         </p>
                     </div>
-                    <div className="col-md-5 order-md-1">
-                        <svg className="grow bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                    <div style={{ paddingTop: '40px'}} className="pb-5 col-md-5 order-md-1">
+                        <img className="grow b_proj bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src='./conf_go.png' aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                     </div>
                 </div>
                 <hr className="featurette-divider" />
                 <div className="siteText row featurette">
                     <div className="col-md-7">
                         <h2 className="nameText display-6 text-decoration-underline">CarCar <span>||</span> <span className="text-muted">Vroom Vroom.</span></h2>
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
-                    <div className="col-md-5">
-                        <svg className="grow bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                    <div className="pt-5 col-md-5">
+                        <img className="grow b_proj bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src='./carcar.png' aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                     </div>
                 </div>
                 <NavRoute />

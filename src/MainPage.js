@@ -1,6 +1,5 @@
 
 import FinishedProjects from './FinishedProjects.js'
-import OngoingProjects from './OngoingProjects.js';
 import Bored from './Bored.js';
 import Skills from './Skills.js';
 import TypeBun from './Header.js';
@@ -19,9 +18,6 @@ export default function MainPage() {
             <Bored />
             <Element id='finished-projects'>
                 <FinishedProjects />
-            </Element>
-            <Element id='ongoing-projects'>
-                <OngoingProjects />
             </Element>
         </>
     );

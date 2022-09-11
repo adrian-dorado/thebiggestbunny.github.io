@@ -4,40 +4,40 @@ import NavRoute from './NavRoute.js'
 const Skills = () => {
     return (
         <>
-            <div style={{ marginTop: '160px' }} className='container'>
+            <div style={{ marginTop: '160px' }} className='\container'>
                 <h1 className='nameText'>Skills, Skills, Skills!</h1>
                 <hr />
                 <div className='row pt-3'>
-                    <div className='col card skills mx-2 siteText'>
+                    <div className='col min-vw-auto card skills mx-2 siteText'>
                         <p>
                             Programming Languages: <br />
-                            &emsp; &emsp; &emsp; &emsp; - JavaScript <br />
-                            &emsp; &emsp; &emsp; &emsp; - Python <br />
-                            &emsp; &emsp; &emsp; &emsp; - HTML5 <br />
-                            &emsp; &emsp; &emsp; &emsp; - CSS3 <br />
-                            &emsp; &emsp; &emsp; &emsp; - Rust <br />
+                            - JavaScript <br />
+                            - Python <br />
+                            - HTML5 <br />
+                            - CSS3 <br />
+                            - Rust <br />
                         </p>
                     </div>
                     <div className='col card skills mx-2 siteText'>
                         <p>
                             Backend Technologies: <br />
-                            &emsp; &emsp; &emsp; &emsp; - Django <br />
-                            &emsp; &emsp; &emsp; &emsp; - Node.js <br />
-                            &emsp; &emsp; &emsp; &emsp; - PostgresSQL <br />
-                            &emsp; &emsp; &emsp; &emsp; - RabbitMQ <br />
-                            &emsp; &emsp; &emsp; &emsp; - Monolithic App Structures <br />
-                            &emsp; &emsp; &emsp; &emsp; - Microservice App Structures <br />
+                            - Django <br />
+                            - Node.js <br />
+                            - PostgresSQL <br />
+                            - RabbitMQ <br />
+                            - Monolithic App Structures <br />
+                            - Microservice App Structures <br />
                         </p>
                     </div>
                     <div className='col card skills mx-2 siteText'>
                         <p>
                             Frontend Technologies: <br />
-                            &emsp; &emsp; &emsp; &emsp; - React <br />
-                            &emsp; &emsp; &emsp; &emsp; - Static HTML Templates <br />
-                            &emsp; &emsp; &emsp; &emsp; - WebSockets <br />
-                            &emsp; &emsp; &emsp; &emsp; - Dom Manipulation <br />
-                            &emsp; &emsp; &emsp; &emsp; - BootstrapCSS <br />
-                            &emsp; &emsp; &emsp; &emsp; - TailwindCSS <br />
+                            - React <br />
+                            - Static HTML Templates <br />
+                            - WebSockets <br />
+                            - Dom Manipulation <br />
+                            - BootstrapCSS <br />
+                            - TailwindCSS <br />
                         </p>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 export default function NavBar() {
     return (
         <>
-            <div href="/" className="collapse navbar-collapse d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom ">
+            <div href="/" className="navbar collapse navbar-collapse navbar-expand-md pb-3 mb-3 link-dark text-decoration-none border-bottom ">
                 <NavLink className="link-dark text-decoration-none" to="/">
                     <div>
                         <img className="pt-2 ms-4" src="./bun.png" width="" height="70" alt="no bun :(" />
@@ -41,6 +41,6 @@ export default function NavBar() {
                 </Link>
             </div>
         </>
-    )
+    );
 };
 
